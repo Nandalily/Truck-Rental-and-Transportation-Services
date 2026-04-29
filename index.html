@@ -188,6 +188,7 @@
     border-top: 4px solid var(--col-ore);
     padding: 2rem 1.5rem;
     transition: transform 0.2s;
+    border-radius: 5px;
   }
   .target-card:hover { transform: translateY(-4px); }
   .target-icon { font-size: 32px; margin-bottom: 1rem; display: block; }
@@ -223,6 +224,7 @@
     position: relative;
     transition: box-shadow 0.2s;
     border-radius: 5px;
+    
   }
   .truck-card:hover { box-shadow: 0 8px 32px rgba(212,88,10,0.12); z-index: 1; }
   .truck-card-type {
@@ -237,7 +239,7 @@
     position: relative;
   }
   .truck-card-name {
-    font-family: var(--ff-head); font-size: 28px; color: var(--col-earth); margin-bottom: 0.5rem;
+    font-family: var(--ff-head); font-size: 28px; color: var(--col-earth); margin-bottom: 0.5rem; border-radius: 5px;
   }
   .truck-capacity {
     font-family: var(--ff-cond); font-size: 22px; font-weight: 700;
@@ -297,10 +299,11 @@
     padding: 2.5rem;
     border-left: 5px solid var(--col-ore);
     transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 5px;
   }
   .service-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
   .service-card-num {
-    font-family: var(--ff-head); font-size: 56px; color: #F0E8DC; margin-bottom: -10px;
+    font-family: var(--ff-head); font-size: 56px; color: #F0E8DC; margin-bottom: -10px; border-radius: 5px;
   }
   .service-card-name {
     font-family: var(--ff-head); font-size: 30px; color: var(--col-earth); margin-bottom: 0.75rem;
@@ -648,22 +651,22 @@
     <h2 class="targets-title">Built For Every Scale</h2>
     <div class="targets-grid">
       <div class="target-card">
-        <span class="target-icon">🏛️</span>
+        <span class="target-icon"></span>
         <div class="target-name">Government Agencies</div>
         <p class="target-desc">Reliable fleet for road construction, infrastructure projects, and public works. Fully documented, insured, and contract-ready.</p>
       </div>
       <div class="target-card">
-        <span class="target-icon">🏗️</span>
+        <span class="target-icon"></span>
         <div class="target-name">Construction Companies</div>
         <p class="target-desc">Timely delivery of stones, sand, gravel, and aggregate to your site. We work around your schedule, not ours.</p>
       </div>
       <div class="target-card">
-        <span class="target-icon">🏪</span>
+        <span class="target-icon"></span>
         <div class="target-name">Small Businesses</div>
         <p class="target-desc">No order too small. Hardware stores, manufacturers, and traders rely on us for regular, affordable bulk transport.</p>
       </div>
       <div class="target-card">
-        <span class="target-icon">👷</span>
+        <span class="target-icon"></span>
         <div class="target-name">Individual Builders</div>
         <p class="target-desc">Building your own home? We deliver directly to your plot with flexible booking and honest pricing with no hidden costs.</p>
       </div>
@@ -719,7 +722,7 @@
 ========================================================= -->
 <section id="trucks">
   <div class="trucks-header">
-    <div class="section-label" style="color:var(--col-dust);">Available Fleet</div>
+    <div class="section-label" style="color:rgba(250,250,248,0.6);;">Available Fleet</div>
     <h1 class="trucks-header-title">Our Trucks</h1>
     <p class="trucks-header-sub">Select the right truck for your job. All vehicles are GPS-tracked, insured, and operated by certified drivers.</p>
   </div>
@@ -833,15 +836,15 @@
       <p class="materials-sub">Whatever your construction project requires, we have the truck and experience to move it reliably across Uganda.</p>
     </div>
     <div class="materials-list">
-      <div class="material-item"><span class="material-emoji">🪨</span><span class="material-name">Quarry Stone</span></div>
-      <div class="material-item"><span class="material-emoji">🏖️</span><span class="material-name">River Sand</span></div>
+      <div class="material-item"><span class="material-emoji"></span><span class="material-name">Quarry Stone</span></div>
+      <div class="material-item"><span class="material-emoji"></span><span class="material-name">River Sand</span></div>
       <div class="material-item"><span class="material-emoji">⛏️</span><span class="material-name">Hardcore</span></div>
-      <div class="material-item"><span class="material-emoji">🟤</span><span class="material-name">Murram</span></div>
-      <div class="material-item"><span class="material-emoji">🪵</span><span class="material-name">Timber Logs</span></div>
-      <div class="material-item"><span class="material-emoji">⚙️</span><span class="material-name">Gravel</span></div>
-      <div class="material-item"><span class="material-emoji">🧱</span><span class="material-name">Bricks & Blocks</span></div>
+      <div class="material-item"><span class="material-emoji"></span><span class="material-name">Murram</span></div>
+      <div class="material-item"><span class="material-emoji"></span><span class="material-name">Timber Logs</span></div>
+      <div class="material-item"><span class="material-emoji"></span><span class="material-name">Gravel</span></div>
+      <div class="material-item"><span class="material-emoji"></span><span class="material-name">Bricks & Blocks</span></div>
       <div class="material-item"><span class="material-emoji">🌍</span><span class="material-name">Fill Soil</span></div>
-      <div class="material-item"><span class="material-emoji">📦</span><span class="material-name">General Cargo</span></div>
+      <div class="material-item"><span class="material-emoji"></span><span class="material-name">General Cargo</span></div>
     </div>
   </div>
 
@@ -890,7 +893,7 @@
 ========================================================= -->
 <section id="contacts">
   <div class="contacts-header">
-    <div class="section-label" style="color:var(--col-dust);">Reach Us</div>
+    <div class="section-label" style="color:rgba(250,250,248,0.6);">Reach Us</div>
     <h1 class="contacts-header-title">Contact Us</h1>
     <p class="contacts-header-sub">Ready to move your materials? Our team is available 6 days a week. Get in touch and we'll respond within 2 hours.</p>
   </div>
